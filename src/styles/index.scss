@@ -13,29 +13,6 @@ body {
 }
 
 .dark {
-    &.container {
-        background: $background-dark;
-    }
     
-    & .title {
-        color: $text-dark;
-    }
 }
 
-.container {
-    width: 50%;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    float: left;
-    background: $background-light;
-}
-
-.title {
-    margin: auto;
-    width: fit-content;
-    color: $text-light;
-    font-family: 'JetBrains Mono', monospace;
-    font-weight: 600;
-    font-style: italic;
-}
