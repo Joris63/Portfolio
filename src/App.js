@@ -6,12 +6,7 @@ import "./styles/index.scss";
 
 function App() {
   return (
-    <>
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
-    </>
+    <LoadingScreen />
   );
 }
 
